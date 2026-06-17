@@ -1,0 +1,48 @@
+# Configuration for End-to-End Analytics Solution
+
+# Database Configuration
+database:
+  type: "sqlite"  # Options: sqlite, mysql, postgresql, mssql
+  host: "localhost"
+  port: 5432
+  user: "admin"
+  password: "your_password"
+  database: "sales_db"
+  # For SQLite (local development)
+  sqlite_path: "data/sales_database.db"
+
+# Data Paths
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  visualizations: "visualizations/charts/"
+  reports: "visualizations/reports/"
+  dashboards: "dashboards/"
+
+# Processing Settings
+processing:
+  date_format: "%Y-%m-%d"
+  encoding: "utf-8"
+  remove_duplicates: true
+  handle_missing_values: "mean"  # Options: mean, median, drop, forward_fill
+  outlier_detection: true
+  outlier_method: "iqr"  # Options: iqr, zscore
+
+# Visualization Settings
+visualization:
+  figure_size: [12, 6]
+  style: "seaborn"
+  dpi: 300
+  colormap: "viridis"
+  save_format: "png"
+
+# Tableau Settings
+tableau:
+  export_format: "csv"
+  enable_incremental_refresh: true
+  data_source: "processed"
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "logs/analytics.log"
