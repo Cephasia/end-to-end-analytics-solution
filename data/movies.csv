@@ -1,0 +1,41 @@
+movie_id,title,release_date,release_year,release_month,budget_m,revenue_m,profit_m,popularity,vote_count,original_language,genre,country
+1,Avatar,2009-12-18,2009,December,237,2788,2551,550.0,13000,EN,Adventure,USA
+2,Pirates of the Caribbean: On Stranger Tides,2011-05-20,2011,May,410,1046,636,150.0,6000,EN,Adventure,USA
+3,Star Wars: The Force Awakens,2015-12-18,2015,December,245,2068,1823,780.0,12000,EN,Science Fiction,USA
+4,Jurassic World,2015-06-12,2015,June,150,1671,1521,720.0,9800,EN,Adventure,USA
+5,Furious 7,2015-04-03,2015,April,190,1516,1326,640.0,10200,EN,Action,USA
+6,Minions,2015-07-10,2015,July,74,1159,1085,600.0,8500,EN,Animation,USA
+7,Avengers: Age of Ultron,2015-05-01,2015,May,365,1405,1040,710.0,11000,EN,Action,USA
+8,Fifty Shades of Grey,2015-02-13,2015,February,40,570,530,210.0,7000,EN,Romance,USA
+9,Inside Out,2015-06-19,2015,June,175,857,682,650.0,9000,EN,Animation,USA
+10,The Martian,2015-10-02,2015,October,108,630,522,300.0,6500,EN,Science Fiction,USA
+11,Spectre,2015-11-06,2015,November,245,880,635,400.0,7200,EN,Action,UK
+12,Home,2015-03-27,2015,March,135,386,251,260.0,4300,EN,Animation,USA
+13,Cinderella,2015-03-13,2015,March,95,543,448,220.0,3700,EN,Fantasy,UK
+14,The Hunger Games: Mockingjay - Part 2,2015-11-20,2015,November,160,652,492,320.0,6800,EN,Adventure,USA
+15,Mad Max: Fury Road,2015-05-15,2015,May,150,375,225,280.0,5400,EN,Action,Australia
+16,Mission: Impossible - Rogue Nation,2015-07-31,2015,July,150,688,538,410.0,5600,EN,Action,USA
+17,Frozen,2013-11-27,2013,November,150,1276,1126,900.0,15000,EN,Animation,USA
+18,The Dark Knight,2008-07-18,2008,July,185,1005,820,680.0,14000,EN,Action,USA
+19,The Avengers,2012-05-04,2012,May,220,1519,1299,770.0,13000,EN,Action,USA
+20,Titanic,1997-12-19,1997,December,200,2187,1987,500.0,16000,EN,Romance,USA
+21,The Lion King,1994-06-24,1994,June,45,968,923,650.0,12500,EN,Animation,USA
+22,The Godfather,1972-03-24,1972,March,6,246,240,150.0,12000,EN,Crime,USA
+23,The Shawshank Redemption,1994-09-10,1994,September,25,58,33,90.0,14000,EN,Drama,USA
+24,Avatar: The Way of Water,2022-12-16,2022,December,350,2317,1967,880.0,12500,EN,Adventure,USA
+25,Inception,2010-07-16,2010,July,160,829,669,610.0,12000,EN,Science Fiction,USA
+26,The Lord of the Rings: The Return of the King,2003-12-17,2003,December,94,1142,1048,520.0,13500,EN,Fantasy,New Zealand
+27,Interstellar,2014-11-07,2014,November,165,677,512,480.0,11000,EN,Science Fiction,USA
+28,Gladiator,2000-05-05,2000,May,103,463,360,300.0,8200,EN,Action,USA
+29,The Prestige,2006-10-20,2006,October,40,109,69,120.0,4200,EN,Drama,UK
+30,La La Land,2016-12-09,2016,December,30,446,416,260.0,7000,EN,Musical,USA
+31,The Social Network,2010-10-01,2010,October,40,224,184,210.0,6000,EN,Drama,USA
+32,Guardians of the Galaxy,2014-08-01,2014,August,170,773,603,650.0,9800,EN,Action,USA
+33,Black Panther,2018-02-16,2018,February,200,1347,1147,820.0,12000,EN,Action,USA
+34,The Wolf of Wall Street,2013-12-25,2013,December,100,392,292,330.0,8500,EN,Comedy,USA
+35,Django Unchained,2012-12-25,2012,December,100,425,325,360.0,7800,EN,Drama,USA
+36,The Matrix,1999-03-31,1999,March,63,466,403,420.0,9000,EN,Science Fiction,USA
+37,The Hobbit: An Unexpected Journey,2012-12-14,2012,December,180,1017,837,540.0,10000,EN,Fantasy,New Zealand
+38,Toy Story 3,2010-06-18,2010,June,200,1066,866,700.0,14000,EN,Animation,USA
+39,Finding Nemo,2003-05-30,2003,May,94,940,846,680.0,11000,EN,Animation,USA
+40,Shrek 2,2004-05-19,2004,May,150,919,769,630.0,11500,EN,Animation,USA

@@ -1,0 +1,54 @@
+-- SQL script to create a movies table and import the CSV (SQLite and PostgreSQL examples)
+
+-- SQLite (use sqlite3 CLI):
+-- 1) Create the database and table
+-- sqlite3 movies.db
+-- Within sqlite3 prompt:
+-- .mode csv
+-- .import data/movies.csv movies
+-- Alternatively, create table explicitly and import:
+-- CREATE TABLE movies (
+--   movie_id INTEGER PRIMARY KEY,
+--   title TEXT,
+--   release_date TEXT,
+--   release_year INTEGER,
+--   release_month TEXT,
+--   budget_m REAL,
+--   revenue_m REAL,
+--   profit_m REAL,
+--   popularity REAL,
+--   vote_count INTEGER,
+--   original_language TEXT,
+--   genre TEXT,
+--   country TEXT
+-- );
+-- Then use .import to load CSV or use a small Python script to bulk insert.
+
+-- PostgreSQL COPY example (run from psql):
+-- CREATE TABLE movies (
+--   movie_id INTEGER PRIMARY KEY,
+--   title TEXT,
+--   release_date DATE,
+--   release_year INTEGER,
+--   release_month TEXT,
+--   budget_m NUMERIC,
+--   revenue_m NUMERIC,
+--   profit_m NUMERIC,
+--   popularity NUMERIC,
+--   vote_count INTEGER,
+--   original_language TEXT,
+--   genre TEXT,
+--   country TEXT
+-- );
+-- COPY movies(movie_id,title,release_date,release_year,release_month,budget_m,revenue_m,profit_m,popularity,vote_count,original_language,genre,country)
+-- FROM '/full/path/to/data/movies.csv' DELIMITER ',' CSV HEADER;
+
+-- After loading, you can run sample queries:
+-- Total revenue and profit by year:
+-- SELECT release_year, SUM(revenue_m) AS total_revenue_m, SUM(profit_m) AS total_profit_m
+-- FROM movies
+-- GROUP BY release_year
+-- ORDER BY release_year;
+
+-- Top 10 movies by revenue:
+-- SELECT title, revenue_m FROM movies ORDER BY revenue_m DESC LIMIT 10;
